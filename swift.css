@@ -1,5 +1,13 @@
 /*! SWIFT v1.0 | http://swift.io */
 
+/*
+ *   WITH EXTENSIVE INFLUENCE FROM THE FOLLOWING OPEN SOURCE PROJECTS
+ *   - Normalize.css | http://normalize.css.github.io
+ *   - Tachyons |  https://tachyons.io/
+ 
+ *
+ */
+
 /* NORMALISE START============================================================================================== */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document ========================================================================== */
@@ -14,10 +22,6 @@ body { margin: 0;}
 
 /* Render the `main` element consistently in IE.*/
 main { display: block;}
-
-/* Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari. */
-h1 { font-size: 2em; margin: 0.67em 0;}
 
 /* Grouping content
    ========================================================================== */
@@ -169,10 +173,95 @@ template { display: none; }
  input[type="email"], input[type="number"], input[type="password"],
  input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizing: border-box; }
 
-/* HTML FONTS BASIC  ============================================================================================== */
-html, .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
+
+/*
+    TYPOGRAPHY DESIGN AND STYLES
+    rem units based on 100% font-size in the html
+
+ */
+html { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
+html {line-height: 1.25; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ font-size: 100%;}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2.25rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: .875rem; }
+p  { font-size: 1rem;}
+
+.f1 { font-size: 3rem; }
+.f2 { font-size: 2.25rem; }
+.f3 { font-size: 1.5rem; }
+.f4 { font-size: 1.25rem; }
+.f5 { font-size: 1rem; }
+.f6 { font-size: .875rem; }
+
+.i {         font-style: italic; }
+.b {         font-weight: bold; }
+.underline { text-decoration: underline; }
+.strike {    text-decoration: line-through; }
+.ttc {       text-transform: capitalize; }
+.ttu {       text-transform: uppercase; }
+
 .serif { font-family: georgia, times, serif; }
+.code { font-family: Consolas, monaco, monospace; }
+.courier { font-family: 'Courier Next', courier, monospace; }
+.helvetica { font-family: 'helvetica neue', helvetica, sans-serif; }
+.avenir { font-family: 'avenir next', avenir, sans-serif; }
+.athelas { font-family: athelas, georgia, serif; }
+.georgia { font-family: georgia, serif; }
+.times { font-family: times, serif; }
+.bodoni { font-family: "Bodoni MT", serif; }
+.calisto { font-family: "Calisto MT", serif; }
+.garamond { font-family: garamond, serif; }
+.baskerville { font-family: baskerville, serif; }
+
+
+
+
 
 /* BASIC DESIGN RESETS     ============================================================================================== */
 button { padding: .6em .9em; background-color: transparent;  border-width: 1px; border-color: rgba( 0, 0, 0, .4 ); }
 button:hover { transition: color .15s ease-in; background-color: rgba( 248,248,248, 1 );  }
+
+
+/* Debugging */
+ .debug * { outline: 1px solid gold; }
+ .debug-white * { outline: 1px solid white; }
+ .debug-black * { outline: 1px solid black; }
+
+ /*DEBUG GRID */
+ .debug-grid { background: transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAFElEQVR4AWPAC97/9x0eCsAEPgwAVLshdpENIxcAAAAASUVORK5CYII= ) repeat top left; }
+ .debug-grid-16 { background: transparent url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAMklEQVR4AWOgCLz/b0epAa6UGuBOqQHOQHLUgFEDnAbcBZ4UGwDOkiCnkIhdgNgNxAYAiYlD+8sEuo8AAAAASUVORK5CYII= ) repeat top left; }
+ .debug-grid-8-solid { background: white url( data:image/gif;base64,R0lGODdhCAAIAPEAAADw/wDx/////wAAACwAAAAACAAIAAACDZQvgaeb/lxbAIKA8y0AOw== ) repeat top left; }
+ .debug-grid-16-solid { background: white url( data:image/gif;base64,R0lGODdhEAAQAPEAAADw/wDx/xXy/////ywAAAAAEAAQAAACIZyPKckYDQFsb6ZqD85jZ2+BkwiRFKehhqQCQgDHcgwEBQA7 ) repeat top left; }
+
+
+
+/*
+    PADDING
+    Base:
+      p = padding
+    Modifiers:
+      a = all
+      h = horizontal
+      v = vertical
+      t = top
+      r = right
+      b = bottom
+      l = left
+ */
+
+ .pa0   { padding: 0;      }
+ .pa025 { padding: .25rem; }
+ .pa05  { padding: .5rem;  }
+ .pa1   { padding: 1rem;   }
+ .pa2   { padding: 2rem;   }
+ .pa3   { padding: 3rem;   }
+ .pa4   { padding: 4rem;   }
+ .pa5   { padding: 5rem;   } 
+ .pa6   { padding: 6rem;   } 
+ .pa7   { padding: 7rem;   } 
+ .pa8   { padding: 8rem;   } 
+ .pa9   { padding: 9rem;   } 
