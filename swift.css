@@ -412,6 +412,48 @@ img { max-width: 100%; }
 .z-initial { z-index: initial; }
 .z-unset { z-index: unset; }
 
+/* SHADOW */
+.shadow-1 {
+-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+-moz-box-shadow:    0 1px 2px 0 rgba(0, 0, 0, 0.05);  /* Firefox 3.5 - 3.6 */
+box-shadow:         0 1px 2px 0 rgba(0, 0, 0, 0.05);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+.shadow-2 {
+-webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+-moz-box-shadow:    0 4px 6px -1px rgba(0, 0, 0, 0.1);  /* Firefox 3.5 - 3.6 */
+box-shadow:         0 4px 6px -1px rgba(0, 0, 0, 0.1);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}  
+.shadow-3 {
+-webkit-box-shadow: 0 7px 11px -3px  rgba(161, 162, 163, 0.5);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+-moz-box-shadow:    0 7px 11px -3px  rgba(161, 162, 163, 0.5);  /* Firefox 3.5 - 3.6 */
+box-shadow:         0 7px 11px -3px  rgba(161, 162, 163, 0.5);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}   
+.shadow-4 {
+-webkit-box-shadow: 0 7px 15px -3px rgba(161, 162, 163, 0.5);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+-moz-box-shadow:    0 7px 15px -3px rgba(161, 162, 163, 0.5);  /* Firefox 3.5 - 3.6 */
+box-shadow:         0 7px 15px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+   
+.shadow-5 {
+-webkit-box-shadow: 0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+-moz-box-shadow:    0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Firefox 3.5 - 3.6 */
+box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+   
+/* OVERFLOW */
+.overflow-visible { overflow: visible; }
+.overflow-hidden { overflow: hidden; }
+.overflow-scroll { overflow: scroll; }
+.overflow-auto { overflow: auto; }
+.overflow-x-visible { overflow-x: visible; }
+.overflow-x-hidden { overflow-x: hidden; }
+.overflow-x-scroll { overflow-x: scroll; }
+.overflow-x-auto { overflow-x: auto; }
+.overflow-y-visible { overflow-y: visible; }
+.overflow-y-hidden { overflow-y: hidden; }
+.overflow-y-scroll { overflow-y: scroll; }
+.overflow-y-auto { overflow-y: auto; }
+ 
 
 /* FLEXBOX */
 .flex { display: flex; }
@@ -466,7 +508,7 @@ img { max-width: 100%; }
 .fr { float: right; _display: inline; }
 .fn { float: none; }
    
- /* BORDERS ===========================================================*/
+ /* BORDERS =================*/
 .ba { border-style: solid; border-width: 1px; }
 .bt { border-top-style: solid; border-top-width: 1px; }
 .br { border-right-style: solid; border-right-width: 1px; }
