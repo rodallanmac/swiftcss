@@ -1,8 +1,8 @@
 .gray-50  { color: hsl( 218, 16%, 98%); }
-.gray-100 { color: hsl( 218, 16%, 93%); }
-.gray-200 { color: hsl( 218, 16%, 85%); }
-.gray-300 { color: hsl( 218, 16%, 80%); }
-.gray-400 { color: hsl( 218, 16%, 75%); }
+.gray-100 { color: hsl( 218, 16%, 96%); }
+.gray-200 { color: hsl( 218, 16%, 94%); }
+.gray-300 { color: hsl( 218, 16%, 90%); }
+.gray-400 { color: hsl( 218, 16%, 80%); }
 .gray-500 { color: hsl( 218, 16%, 70%); }
 .gray-600 { color: hsl( 218, 16%, 65%); }
 .gray-700 { color: hsl( 218, 16%, 55%); }
@@ -124,10 +124,10 @@
 
 
 .bg-gray-50  { background-color: hsl( 218, 16%, 98%); }
-.bg-gray-100 { background-color: hsl( 218, 16%, 93%); }
-.bg-gray-200 { background-color: hsl( 218, 16%, 85%); }
-.bg-gray-300 { background-color: hsl( 218, 16%, 80%); }
-.bg-gray-400 { background-color: hsl( 218, 16%, 75%); }
+.bg-gray-100 { background-color: hsl( 218, 16%, 96%); }
+.bg-gray-200 { background-color: hsl( 218, 16%, 94%); }
+.bg-gray-300 { background-color: hsl( 218, 16%, 90%); }
+.bg-gray-400 { background-color: hsl( 218, 16%, 80%); }
 .bg-gray-500 { background-color: hsl( 218, 16%, 70%); }
 .bg-gray-600 { background-color: hsl( 218, 16%, 65%); }
 .bg-gray-700 { background-color: hsl( 218, 16%, 55%); }
