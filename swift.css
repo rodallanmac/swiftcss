@@ -243,6 +243,7 @@ p  { font-size: 1rem;}
           user-select: none; 
   }
 
+
 /* LETTER-SPACING */
 .ls-xl { letter-spacing: .1em; }
 .ls-l { letter-spacing: .25em; }
@@ -362,6 +363,7 @@ img { max-width: 100%; }
 .bg-top-left { background-repeat: no-repeat; background-position: top left; }
 .bg-bottom-left { background-repeat: no-repeat; background-position: bottom left; }
 .bg-bottom-right { background-repeat: no-repeat; background-position: bottom right; }
+.sticky { position: -webkit-sticky; position: sticky; top: 0; }
 
 /*  DISPLAY */
 .dn { display: none; }
