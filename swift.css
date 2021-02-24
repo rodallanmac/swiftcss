@@ -360,6 +360,7 @@ img { max-width: 100%; }
 .bg-left { background-repeat: no-repeat; background-position: center left; }
 .bg-top-left { background-repeat: no-repeat; background-position: top left; }
 .bg-bottom-left { background-repeat: no-repeat; background-position: bottom left; }
+.bg-bottom-right { background-repeat: no-repeat; background-position: bottom right; }
 
 /*  DISPLAY */
 .dn { display: none; }
