@@ -729,6 +729,20 @@ img { max-width: 100%; }
 .fw8-m { font-weight: 800; }
 .fw9-m { font-weight: 900; }
 
+/* BORDER RADIUS*/
+.br-0-m { border-radius: 0; }
+.br-0125-m { border-radius: .125rem; }
+.br-025-m { border-radius: .25rem; }
+.br-05-m { border-radius: .5rem; }
+.br-1-m { border-radius: 1rem; }
+.br-2-m { border-radius: 2rem; }
+.br-100-m { border-radius: 100%; }
+.br-pill-m { border-radius: 9999px; }
+.br--bottom-m { border-top-left-radius: 0; border-top-right-radius: 0; }
+.br--top-m { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.br--right-m { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+.br--left-m { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+
  /*  PADDING-M  */
  .pa0-m   { padding: 0;      }
  .pa025-m { padding: .25rem; }
@@ -1005,6 +1019,20 @@ img { max-width: 100%; }
 .fw8-l { font-weight: 800; }
 .fw9-l { font-weight: 900; }
 
+/* BORDER RADIUS*/
+.br-0-l { border-radius: 0; }
+.br-0125-l { border-radius: .125rem; }
+.br-025-l { border-radius: .25rem; }
+.br-05-l { border-radius: .5rem; }
+.br-1-l { border-radius: 1rem; }
+.br-2-l { border-radius: 2rem; }
+.br-100-l { border-radius: 100%; }
+.br-pill-l { border-radius: 9999px; }
+.br--bottom-l { border-top-left-radius: 0; border-top-right-radius: 0; }
+.br--top-l { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.br--right-l { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+.br--left-l { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+
 
   /*  PADDING-l  */
   .pa0-l   { padding: 0;      }
@@ -1279,6 +1307,21 @@ img { max-width: 100%; }
 .fw7-xl { font-weight: 700; }
 .fw8-xl { font-weight: 800; }
 .fw9-xl { font-weight: 900; }
+
+/* BORDER RADIUS*/
+.br-0-xl { border-radius: 0; }
+.br-0125-xl { border-radius: .125rem; }
+.br-025-xl { border-radius: .25rem; }
+.br-05-xl { border-radius: .5rem; }
+.br-1-xl { border-radius: 1rem; }
+.br-2-xl { border-radius: 2rem; }
+.br-100-xl { border-radius: 100%; }
+.br-pill-xl { border-radius: 9999px; }
+.br--bottom-xl { border-top-left-radius: 0; border-top-right-radius: 0; }
+.br--top-xl { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.br--right-xl { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+.br--left-xl { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+
 
 
 /*  PADDING-xl  */
