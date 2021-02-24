@@ -455,6 +455,7 @@ img { max-width: 100%; }
 .br-025 { border-radius: .25rem; }
 .br-05 { border-radius: .5rem; }
 .br-1 { border-radius: 1rem; }
+.br-2 { border-radius: 2rem; }
 .br-100 { border-radius: 100%; }
 .br-pill { border-radius: 9999px; }
 .br--bottom { border-top-left-radius: 0; border-top-right-radius: 0; }
