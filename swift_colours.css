@@ -306,7 +306,7 @@
 }
 
 .grad-blue-dynamic {
-    background: linear-gradient(270deg, #21a9c8, #2167c8);
+    background: linear-gradient(270deg, #21b4c8, #174e9b);
     background-size: 400% 400%;
 
     -webkit-animation: AnimationName 30s ease infinite;
