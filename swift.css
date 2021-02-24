@@ -212,7 +212,7 @@ p  { font-size: 1rem;}
 .f3 { font-size: 1.5rem; }
 .f4 { font-size: 1.25rem; }
 .f5 { font-size: 1rem; }
-.f6 { font-size: .875rem; }
+.f6 { font-size: .9rem; }
 .f7 { font-size: .8rem; }
 
 .fw1 { font-weight: 100; }
@@ -761,7 +761,8 @@ img { max-width: 100%; }
 .f3-m { font-size: 1.5rem; }
 .f4-m { font-size: 1.25rem; }
 .f5-m { font-size: 1rem; }
-.f6-m { font-size: .875rem; }
+.f6-m { font-size: .9rem; }
+.f7-m { font-size: .8rem; }
 
 .fw1-m { font-weight: 100; }
 .fw2-m { font-weight: 200; }
@@ -1115,7 +1116,8 @@ img { max-width: 100%; }
 .f3-l { font-size: 1.5rem; }
 .f4-l { font-size: 1.25rem; }
 .f5-l { font-size: 1rem; }
-.f6-l { font-size: .875rem; }
+.f6-l { font-size: .9rem; }
+.f7-l { font-size: .8rem; }
 
 .fw1-l { font-weight: 100; }
 .fw2-l { font-weight: 200; }
@@ -1468,7 +1470,8 @@ img { max-width: 100%; }
 .f3-xl { font-size: 1.5rem; }
 .f4-xl { font-size: 1.25rem; }
 .f5-xl { font-size: 1rem; }
-.f6-xl { font-size: .875rem; }
+.f6-xl { font-size: .8rem; }
+.f7-xl { font-size: .8rem; }
 
 .fw1-xl { font-weight: 100; }
 .fw2-xl { font-weight: 200; }
