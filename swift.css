@@ -762,6 +762,7 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 .h7 { height: 7rem; }
 .h8 { height: 8rem; }
 .h9 { height: 9rem; }
+.h24   { height: 24px;  }
 .h50   { height: 50px;  }
 .h100  { height: 200px; }
 .h200  { height: 200px; }
@@ -1166,6 +1167,7 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 .h8-m { height: 8rem; }
 .h9-m { height: 9rem; }
 
+.h24-m   { height: 24px;  }
 .h50-m   { height: 50px;  }
 .h100-m  { height: 200px; }
 .h200-m  { height: 200px; }
@@ -1571,6 +1573,7 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
  .h8-l { height: 8rem; }
  .h9-l { height: 9rem; }
  
+ .h24-l   { height: 24px;  }
  .h50-l   { height: 50px;  }
  .h100-l  { height: 200px; }
  .h200-l  { height: 200px; }
@@ -1976,6 +1979,7 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 .h8-xl { height: 8rem; }
 .h9-xl { height: 9rem; }
 
+.h24-xl   { height: 24px;  }
 .h50-xl   { height: 50px;  }
 .h100-xl  { height: 200px; }
 .h200-xl  { height: 200px; }
