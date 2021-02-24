@@ -34,6 +34,17 @@
 .white-20 { color: rgba( 255, 255, 255, .2 ); }
 .white-10 { color: rgba( 255, 255, 255, .1 ); }
 
+.hover-white-100:hover { color: rgba( 255, 255, 255, 1 ); transition: color .15s ease-in;}
+.hover-white-90:hover { color: rgba( 255, 255, 255, .9 ); transition: color .15s ease-in;}
+.hover-white-80:hover { color: rgba( 255, 255, 255, .8 ); transition: color .15s ease-in;}
+.hover-white-70:hover { color: rgba( 255, 255, 255, .7 ); transition: color .15s ease-in;}
+.hover-white-60:hover { color: rgba( 255, 255, 255, .6 ); transition: color .15s ease-in;}
+.hover-white-50:hover { color: rgba( 255, 255, 255, .5 ); transition: color .15s ease-in;}
+.hover-white-40:hover { color: rgba( 255, 255, 255, .4 ); transition: color .15s ease-in;}
+.hover-white-30:hover { color: rgba( 255, 255, 255, .3 ); transition: color .15s ease-in;}
+.hover-white-20:hover { color: rgba( 255, 255, 255, .2 ); transition: color .15s ease-in;}
+.hover-white-10:hover { color: rgba( 255, 255, 255, .1 ); transition: color .15s ease-in;}
+
 
 
 .gray-50  { color: hsl( 218, 16%, 98%); }
