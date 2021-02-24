@@ -1,23 +1,234 @@
-/* BACKGROUND COLOR ===========================================================*/
-.bg-gray-50  { background-color: rgba( 249, 250, 251, 1 ); }
-.bg-gray-100 { background-color: rgba( 244, 245, 246, 1 ); }
-.bg-gray-200 { background-color: rgba( 238, 245, 246, 1 ); }
-.bg-gray-300 { background-color: rgba( 233, 240, 241, 1 ); }
-.bg-gray-400 { background-color: rgba( 228, 235, 236, 1 ); }
-.bg-gray-500 { background-color: rgba( 223, 230, 231, 1 ); }
-.bg-gray-600 { background-color: rgba( 218, 225, 226, 1 ); }
-.bg-gray-700 { background-color: rgba( 213, 220, 221, 1 ); }
-.bg-gray-800 { background-color: rgba( 208, 215, 216, 1 ); }
-.bg-gray-900 { background-color: rgba( 203, 210, 211, 1 ); }
+.black-50  { color: hsl( 218, 16%, 75%); }
+.black-100 { color: hsl( 218, 16%, 70%); }
+.black-200 { color: hsl( 218, 16%, 65%); }
+.black-300 { color: hsl( 218, 16%, 60%); }
+.black-400 { color: hsl( 218, 16%, 55%); }
+.black-500 { color: hsl( 218, 16%, 50%); }
+.black-600 { color: hsl( 218, 16%, 40%); }
+.black-700 { color: hsl( 218, 16%, 30%); }
+.black-800 { color: hsl( 218, 16%, 20%); }
+.black-900 { color: hsl( 218, 16%, 10%); }
+
+.red-50  { color: hsl( 0, 80%, 92%); }
+.red-100 { color: hsl( 0, 80%, 85%); }
+.red-200 { color: hsl( 0, 80%, 78%); }
+.red-300 { color: hsl( 0, 80%, 71%); }
+.red-400 { color: hsl( 0, 80%, 64%); }
+.red-500 { color: hsl( 0, 80%, 57%); }
+.red-600 { color: hsl( 0, 80%, 50%); }
+.red-700 { color: hsl( 0, 80%, 43%); }
+.red-800 { color: hsl( 0, 80%, 37%); }
+.red-900 { color: hsl( 0, 80%, 30%); }
+
+.orange-50  { color: hsl( 23, 80%, 92%); }
+.orange-100 { color: hsl( 23, 80%, 85%); }
+.orange-200 { color: hsl( 23, 80%, 78%); }
+.orange-300 { color: hsl( 23, 80%, 71%); }
+.orange-400 { color: hsl( 23, 80%, 64%); }
+.orange-500 { color: hsl( 23, 80%, 57%); }
+.orange-600 { color: hsl( 23, 80%, 50%); }
+.orange-700 { color: hsl( 23, 80%, 43%); }
+.orange-800 { color: hsl( 23, 80%, 37%); }
+.orange-900 { color: hsl( 23, 80%, 30%); }
+
+.yellow-50  { color: hsl(42, 80%, 92%); }
+.yellow-100 { color: hsl(42, 80%, 85%); }
+.yellow-200 { color: hsl(42, 80%, 78%); }
+.yellow-300 { color: hsl(42, 80%, 71%); }
+.yellow-400 { color: hsl(42, 80%, 64%); }
+.yellow-500 { color: hsl(42, 80%, 57%); }
+.yellow-600 { color: hsl(42, 80%, 50%); }
+.yellow-700 { color: hsl(42, 80%, 43%); }
+.yellow-800 { color: hsl(42, 80%, 37%); }
+.yellow-900 { color: hsl(42, 80%, 30%); }
+
+.green-50  { color: hsl(100, 80%, 92%); }
+.green-100 { color: hsl(100, 80%, 85%); }
+.green-200 { color: hsl(100, 80%, 78%); }
+.green-300 { color: hsl(100, 80%, 71%); }
+.green-400 { color: hsl(100, 80%, 64%); }
+.green-500 { color: hsl(100, 80%, 57%); }
+.green-600 { color: hsl(100, 80%, 50%); }
+.green-700 { color: hsl(100, 80%, 43%); }
+.green-800 { color: hsl(100, 80%, 37%); }
+.green-900 { color: hsl(100, 80%, 30%); }
+
+.lime-50  { color: hsl(81, 80%, 92%); }
+.lime-100 { color: hsl(81, 80%, 85%); }
+.lime-200 { color: hsl(81, 80%, 78%); }
+.lime-300 { color: hsl(81, 80%, 71%); }
+.lime-400 { color: hsl(81, 80%, 64%); }
+.lime-500 { color: hsl(81, 80%, 57%); }
+.lime-600 { color: hsl(81, 80%, 50%); }
+.lime-700 { color: hsl(81, 80%, 43%); }
+.lime-800 { color: hsl(81, 80%, 37%); }
+.lime-900 { color: hsl(81, 80%, 30%); }
+
+.cyan-50  { color: hsl(193, 80%, 92%); }
+.cyan-100 { color: hsl(193, 80%, 85%); }
+.cyan-200 { color: hsl(193, 80%, 78%); }
+.cyan-300 { color: hsl(193, 80%, 71%); }
+.cyan-400 { color: hsl(193, 80%, 64%); }
+.cyan-500 { color: hsl(193, 80%, 57%); }
+.cyan-600 { color: hsl(193, 80%, 50%); }
+.cyan-700 { color: hsl(193, 80%, 43%); }
+.cyan-800 { color: hsl(193, 80%, 37%); }
+.cyan-900 { color: hsl(193, 80%, 30%); }
+
+.blue-50  { color: hsl(218, 80%, 92%); }
+.blue-100 { color: hsl(218, 80%, 85%); }
+.blue-200 { color: hsl(218, 80%, 78%); }
+.blue-300 { color: hsl(218, 80%, 71%); }
+.blue-400 { color: hsl(218, 80%, 64%); }
+.blue-500 { color: hsl(218, 80%, 57%); }
+.blue-600 { color: hsl(218, 80%, 50%); }
+.blue-700 { color: hsl(218, 80%, 43%); }
+.blue-800 { color: hsl(218, 80%, 37%); }
+.blue-900 { color: hsl(218, 80%, 30%); }
+
+.purple-50  { color: hsl( 277, 80%, 92%); }
+.purple-100 { color: hsl( 277, 80%, 85%); }
+.purple-200 { color: hsl( 277, 80%, 78%); }
+.purple-300 { color: hsl( 277, 80%, 71%); }
+.purple-400 { color: hsl( 277, 80%, 64%); }
+.purple-500 { color: hsl( 277, 80%, 57%); }
+.purple-600 { color: hsl( 277, 80%, 50%); }
+.purple-700 { color: hsl( 277, 80%, 43%); }
+.purple-800 { color: hsl( 277, 80%, 37%); }
+.purple-900 { color: hsl( 277, 80%, 30%); }
+
+.magenta-50  { color: hsl( 335, 80%, 92%); }
+.magenta-100 { color: hsl( 335, 80%, 85%); }
+.magenta-200 { color: hsl( 335, 80%, 78%); }
+.magenta-300 { color: hsl( 335, 80%, 71%); }
+.magenta-400 { color: hsl( 335, 80%, 64%); }
+.magenta-500 { color: hsl( 335, 80%, 57%); }
+.magenta-600 { color: hsl( 335, 80%, 50%); }
+.magenta-700 { color: hsl( 335, 80%, 43%); }
+.magenta-800 { color: hsl( 335, 80%, 37%); }
+.magenta-900 { color: hsl( 335, 80%, 30%); }
 
 
-.bg-red-50  { background-color: rgba( 255, 51, 51, 1 ); }
-.bg-red-100 { background-color: rgba( 229, 46, 46, 1 ); }
-.bg-red-200 { background-color: rgba( 217, 43, 43, 1 ); }
-.bg-red-300 { background-color: rgba( 204, 41, 41, 1 ); }
-.bg-red-400 { background-color: rgba( 191, 38, 38, 1 ); }
-.bg-red-500 { background-color: rgba( 179, 36, 36, 1 ); }
-.bg-red-600 { background-color: rgba( 166, 33, 33, 1 ); }
-.bg-red-700 { background-color: rgba( 153, 31, 31, 1 ); }
-.bg-red-800 { background-color: rgba( 128, 26, 26, 1 ); }
-.bg-red-900 { background-color: rgba( 102, 20, 20, 1 ); }
+
+.bg-black-50  { background-color: hsl( 218, 16%, 75%); }
+.bg-black-100 { background-color: hsl( 218, 16%, 70%); }
+.bg-black-200 { background-color: hsl( 218, 16%, 65%); }
+.bg-black-300 { background-color: hsl( 218, 16%, 60%); }
+.bg-black-400 { background-color: hsl( 218, 16%, 55%); }
+.bg-black-500 { background-color: hsl( 218, 16%, 50%); }
+.bg-black-600 { background-color: hsl( 218, 16%, 40%); }
+.bg-black-700 { background-color: hsl( 218, 16%, 30%); }
+.bg-black-800 { background-color: hsl( 218, 16%, 20%); }
+.bg-black-900 { background-color: hsl( 218, 16%, 10%); }
+
+.bg-red-50  { background-color: hsl( 0, 80%, 92%); }
+.bg-red-100 { background-color: hsl( 0, 80%, 85%); }
+.bg-red-200 { background-color: hsl( 0, 80%, 78%); }
+.bg-red-300 { background-color: hsl( 0, 80%, 71%); }
+.bg-red-400 { background-color: hsl( 0, 80%, 64%); }
+.bg-red-500 { background-color: hsl( 0, 80%, 57%); }
+.bg-red-600 { background-color: hsl( 0, 80%, 50%); }
+.bg-red-700 { background-color: hsl( 0, 80%, 43%); }
+.bg-red-800 { background-color: hsl( 0, 80%, 37%); }
+.bg-red-900 { background-color: hsl( 0, 80%, 30%); }
+
+.bg-orange-50  { background-color: hsl( 23, 80%, 92%); }
+.bg-orange-100 { background-color: hsl( 23, 80%, 85%); }
+.bg-orange-200 { background-color: hsl( 23, 80%, 78%); }
+.bg-orange-300 { background-color: hsl( 23, 80%, 71%); }
+.bg-orange-400 { background-color: hsl( 23, 80%, 64%); }
+.bg-orange-500 { background-color: hsl( 23, 80%, 57%); }
+.bg-orange-600 { background-color: hsl( 23, 80%, 50%); }
+.bg-orange-700 { background-color: hsl( 23, 80%, 43%); }
+.bg-orange-800 { background-color: hsl( 23, 80%, 37%); }
+.bg-orange-900 { background-color: hsl( 23, 80%, 30%); }
+
+.bg-yellow-50  { background-color: hsl(42, 80%, 92%); }
+.bg-yellow-100 { background-color: hsl(42, 80%, 85%); }
+.bg-yellow-200 { background-color: hsl(42, 80%, 78%); }
+.bg-yellow-300 { background-color: hsl(42, 80%, 71%); }
+.bg-yellow-400 { background-color: hsl(42, 80%, 64%); }
+.bg-yellow-500 { background-color: hsl(42, 80%, 57%); }
+.bg-yellow-600 { background-color: hsl(42, 80%, 50%); }
+.bg-yellow-700 { background-color: hsl(42, 80%, 43%); }
+.bg-yellow-800 { background-color: hsl(42, 80%, 37%); }
+.bg-yellow-900 { background-color: hsl(42, 80%, 30%); }
+
+.bg-green-50  { background-color: hsl(100, 80%, 92%); }
+.bg-green-100 { background-color: hsl(100, 80%, 85%); }
+.bg-green-200 { background-color: hsl(100, 80%, 78%); }
+.bg-green-300 { background-color: hsl(100, 80%, 71%); }
+.bg-green-400 { background-color: hsl(100, 80%, 64%); }
+.bg-green-500 { background-color: hsl(100, 80%, 57%); }
+.bg-green-600 { background-color: hsl(100, 80%, 50%); }
+.bg-green-700 { background-color: hsl(100, 80%, 43%); }
+.bg-green-800 { background-color: hsl(100, 80%, 37%); }
+.bg-green-900 { background-color: hsl(100, 80%, 30%); }
+
+.bg-lime-50  { background-color: hsl(81, 80%, 92%); }
+.bg-lime-100 { background-color: hsl(81, 80%, 85%); }
+.bg-lime-200 { background-color: hsl(81, 80%, 78%); }
+.bg-lime-300 { background-color: hsl(81, 80%, 71%); }
+.bg-lime-400 { background-color: hsl(81, 80%, 64%); }
+.bg-lime-500 { background-color: hsl(81, 80%, 57%); }
+.bg-lime-600 { background-color: hsl(81, 80%, 50%); }
+.bg-lime-700 { background-color: hsl(81, 80%, 43%); }
+.bg-lime-800 { background-color: hsl(81, 80%, 37%); }
+.bg-lime-900 { background-color: hsl(81, 80%, 30%); }
+
+.bg-cyan-50  { background-color: hsl(193, 80%, 92%); }
+.bg-cyan-100 { background-color: hsl(193, 80%, 85%); }
+.bg-cyan-200 { background-color: hsl(193, 80%, 78%); }
+.bg-cyan-300 { background-color: hsl(193, 80%, 71%); }
+.bg-cyan-400 { background-color: hsl(193, 80%, 64%); }
+.bg-cyan-500 { background-color: hsl(193, 80%, 57%); }
+.bg-cyan-600 { background-color: hsl(193, 80%, 50%); }
+.bg-cyan-700 { background-color: hsl(193, 80%, 43%); }
+.bg-cyan-800 { background-color: hsl(193, 80%, 37%); }
+.bg-cyan-900 { background-color: hsl(193, 80%, 30%); }
+
+.bg-blue-50  { background-color: hsl(218, 80%, 92%); }
+.bg-blue-100 { background-color: hsl(218, 80%, 85%); }
+.bg-blue-200 { background-color: hsl(218, 80%, 78%); }
+.bg-blue-300 { background-color: hsl(218, 80%, 71%); }
+.bg-blue-400 { background-color: hsl(218, 80%, 64%); }
+.bg-blue-500 { background-color: hsl(218, 80%, 57%); }
+.bg-blue-600 { background-color: hsl(218, 80%, 50%); }
+.bg-blue-700 { background-color: hsl(218, 80%, 43%); }
+.bg-blue-800 { background-color: hsl(218, 80%, 37%); }
+.bg-blue-900 { background-color: hsl(218, 80%, 30%); }
+
+.bg-purple-50  { background-color: hsl( 277, 80%, 92%); }
+.bg-purple-100 { background-color: hsl( 277, 80%, 85%); }
+.bg-purple-200 { background-color: hsl( 277, 80%, 78%); }
+.bg-purple-300 { background-color: hsl( 277, 80%, 71%); }
+.bg-purple-400 { background-color: hsl( 277, 80%, 64%); }
+.bg-purple-500 { background-color: hsl( 277, 80%, 57%); }
+.bg-purple-600 { background-color: hsl( 277, 80%, 50%); }
+.bg-purple-700 { background-color: hsl( 277, 80%, 43%); }
+.bg-purple-800 { background-color: hsl( 277, 80%, 37%); }
+.bg-purple-900 { background-color: hsl( 277, 80%, 30%); }
+
+.bg-magenta-50  { background-color: hsl( 335, 80%, 92%); }
+.bg-magenta-100 { background-color: hsl( 335, 80%, 85%); }
+.bg-magenta-200 { background-color: hsl( 335, 80%, 78%); }
+.bg-magenta-300 { background-color: hsl( 335, 80%, 71%); }
+.bg-magenta-400 { background-color: hsl( 335, 80%, 64%); }
+.bg-magenta-500 { background-color: hsl( 335, 80%, 57%); }
+.bg-magenta-600 { background-color: hsl( 335, 80%, 50%); }
+.bg-magenta-700 { background-color: hsl( 335, 80%, 43%); }
+.bg-magenta-800 { background-color: hsl( 335, 80%, 37%); }
+.bg-magenta-900 { background-color: hsl( 335, 80%, 30%); }
+
+
+
+
+.grad-blue-50 { 
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); 
+}
+.grad-blue-100 { 
+    background-color: #0372b3;
+    background-image: linear-gradient(160deg, #0372b3 0%, #80c0d0 100%); 
+}
+
