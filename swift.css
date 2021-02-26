@@ -169,7 +169,7 @@ template { display: none; }
 
 /* BASIC DESIGN RESETS     ============================================================================================== */
 html { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
-html {line-height: 1.25; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ font-size: 100%;}
+html {line-height: 1.5; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ font-size: 100%;}
 button { padding: .6em .9em; background-color: transparent;  border-width: 1px; border-color: rgba( 0, 0, 0, .4 ); }
 button:hover { transition: color .15s ease-in; background-color: rgba( 248,248,248, 1 );  }
 
