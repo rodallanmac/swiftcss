@@ -364,6 +364,7 @@ img { max-width: 100%; }
 .bg-bottom-left { background-repeat: no-repeat; background-position: bottom left; }
 .bg-bottom-right { background-repeat: no-repeat; background-position: bottom right; }
 .sticky { position: -webkit-sticky; position: sticky; top: 0; }
+.sticky-1 { position: -webkit-sticky; position: sticky; top: 1em; }
 
 /*  DISPLAY */
 .dn { display: none; }
