@@ -209,7 +209,7 @@ p  { font-size: 1rem;                        }
 .f-head { font-size: 5rem; }
 .f1 { font-size: 3rem;     line-height: 1.05em  }
 .f2 { font-size: 2.25rem;  line-height: 1.2em   }
-.f3 { font-size: 1.5rem;   line-height: 1.3em  }
+.f3 { font-size: 1.5rem;   line-height: 1.2em  }
 .f4 { font-size: 1.25rem;  line-height: 1.3em   }
 .f5 { font-size: 1rem;     line-height: 1.3em   }
 .f6 { font-size: .9rem;    line-height: 1.4em   }
@@ -819,7 +819,7 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 .f-head-m { font-size: 5rem; }
 .f1-m { font-size: 3rem;     line-height: 1.05em  }
 .f2-m { font-size: 2.25rem;  line-height: 1.2em   }
-.f3-m { font-size: 1.5rem;   line-height: 1.3em  }
+.f3-m { font-size: 1.5rem;   line-height: 1.2em  }
 .f4-m { font-size: 1.25rem;  line-height: 1.3em   }
 .f5-m { font-size: 1rem;     line-height: 1.3em   }
 .f6-m { font-size: .9rem;    line-height: 1.4em   }
@@ -1225,7 +1225,7 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 .f-head-l { font-size: 5rem; }
 .f1-l { font-size: 3rem;     line-height: 1.05em  }
 .f2-l { font-size: 2.25rem;  line-height: 1.2em   }
-.f3-l { font-size: 1.5rem;   line-height: 1.3em  }
+.f3-l { font-size: 1.5rem;   line-height: 1.2em  }
 .f4-l { font-size: 1.25rem;  line-height: 1.3em   }
 .f5-l { font-size: 1rem;     line-height: 1.3em   }
 .f6-l { font-size: .9rem;    line-height: 1.4em   }
@@ -1631,7 +1631,7 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 .f-head-xl { font-size: 5rem; }
 .f1-xl { font-size: 3rem;     line-height: 1.05em  }
 .f2-xl { font-size: 2.25rem;  line-height: 1.2em   }
-.f3-xl { font-size: 1.5rem;   line-height: 1.3em  }
+.f3-xl { font-size: 1.5rem;   line-height: 1.2em  }
 .f4-xl { font-size: 1.25rem;  line-height: 1.3em   }
 .f5-xl { font-size: 1rem;     line-height: 1.3em   }
 .f6-xl { font-size: .9rem;    line-height: 1.4em   }
