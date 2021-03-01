@@ -198,13 +198,13 @@ input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizi
     rem units based on 100% font-size in the html
 */
 
-h1 { font-size: 3rem; }
-h2 { font-size: 2.25rem; }
-h3 { font-size: 1.5rem; }
+h1 { font-size: 3rem;    line-height: 1.1em}
+h2 { font-size: 2.25rem; line-height: 1.1em}
+h3 { font-size: 1.5rem;  }
 h4 { font-size: 1.25rem; }
-h5 { font-size: 1rem; }
+h5 { font-size: 1rem;    }
 h6 { font-size: .875rem; }
-p  { font-size: 1rem;}
+p  { font-size: 1rem;    }
 
 .f-head { font-size: 5rem; }
 .f1 { font-size: 3rem; }
