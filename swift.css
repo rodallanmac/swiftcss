@@ -815,14 +815,15 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
  @media only screen and (min-width: 600px) {
 
 /*  TYPOGRAPHY-M  */
+
 .f-head-m { font-size: 5rem; }
-.f1-m { font-size: 3rem; }
-.f2-m { font-size: 2.25rem; }
-.f3-m { font-size: 1.5rem; }
-.f4-m { font-size: 1.25rem; }
-.f5-m { font-size: 1rem; }
-.f6-m { font-size: .9rem; }
-.f7-m { font-size: .8rem; }
+.f1-m { font-size: 3rem;     line-height: 1.05em  }
+.f2-m { font-size: 2.25rem;  line-height: 1.2em   }
+.f3-m { font-size: 1.5rem;   line-height: 1.3em  }
+.f4-m { font-size: 1.25rem;  line-height: 1.3em   }
+.f5-m { font-size: 1rem;     line-height: 1.3em   }
+.f6-m { font-size: .9rem;    line-height: 1.4em   }
+.f7-m { font-size: .8rem;    line-height: 1.5em   }
 
 .fw1-m { font-weight: 100; }
 .fw2-m { font-weight: 200; }
@@ -1222,13 +1223,13 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 
 /*  TYPOGRAPHY-L  */
 .f-head-l { font-size: 5rem; }
-.f1-l { font-size: 3rem; }
-.f2-l { font-size: 2.25rem; }
-.f3-l { font-size: 1.5rem; }
-.f4-l { font-size: 1.25rem; }
-.f5-l { font-size: 1rem; }
-.f6-l { font-size: .9rem; }
-.f7-l { font-size: .8rem; }
+.f1-l { font-size: 3rem;     line-height: 1.05em  }
+.f2-l { font-size: 2.25rem;  line-height: 1.2em   }
+.f3-l { font-size: 1.5rem;   line-height: 1.3em  }
+.f4-l { font-size: 1.25rem;  line-height: 1.3em   }
+.f5-l { font-size: 1rem;     line-height: 1.3em   }
+.f6-l { font-size: .9rem;    line-height: 1.4em   }
+.f7-l { font-size: .8rem;    line-height: 1.5em   }
 
 .fw1-l { font-weight: 100; }
 .fw2-l { font-weight: 200; }
@@ -1628,13 +1629,13 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 
 /*  TYPOGRAPHY-xl  */
 .f-head-xl { font-size: 5rem; }
-.f1-xl { font-size: 3rem; }
-.f2-xl { font-size: 2.25rem; }
-.f3-xl { font-size: 1.5rem; }
-.f4-xl { font-size: 1.25rem; }
-.f5-xl { font-size: 1rem; }
-.f6-xl { font-size: .8rem; }
-.f7-xl { font-size: .8rem; }
+.f1-xl { font-size: 3rem;     line-height: 1.05em  }
+.f2-xl { font-size: 2.25rem;  line-height: 1.2em   }
+.f3-xl { font-size: 1.5rem;   line-height: 1.3em  }
+.f4-xl { font-size: 1.25rem;  line-height: 1.3em   }
+.f5-xl { font-size: 1rem;     line-height: 1.3em   }
+.f6-xl { font-size: .9rem;    line-height: 1.4em   }
+.f7-xl { font-size: .8rem;    line-height: 1.5em   }
 
 .fw1-xl { font-weight: 100; }
 .fw2-xl { font-weight: 200; }
