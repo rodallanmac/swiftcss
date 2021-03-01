@@ -198,22 +198,22 @@ input[type="tel"], input[type="text"], input[type="url"], .border-box { box-sizi
     rem units based on 100% font-size in the html
 */
 
-h1 { font-size: 3rem;    line-height: 1.1em}
-h2 { font-size: 2.25rem; line-height: 1.1em}
-h3 { font-size: 1.5rem;  }
-h4 { font-size: 1.25rem; }
-h5 { font-size: 1rem;    }
-h6 { font-size: .875rem; }
-p  { font-size: 1rem;    }
+h1 { font-size: 3rem;    line-height: 1.1em  }
+h2 { font-size: 2.25rem; line-height: 1.2em  }
+h3 { font-size: 1.5rem;  line-height: 1.25em }
+h4 { font-size: 1.25rem; line-height: 1.3em  }
+h5 { font-size: 1rem;    line-height: 1.3em  }
+h6 { font-size: .875rem; line-height: 1.4em  }
+p  { font-size: 1rem;                        }
 
 .f-head { font-size: 5rem; }
-.f1 { font-size: 3rem; }
-.f2 { font-size: 2.25rem; }
-.f3 { font-size: 1.5rem; }
-.f4 { font-size: 1.25rem; }
-.f5 { font-size: 1rem; }
-.f6 { font-size: .9rem; }
-.f7 { font-size: .8rem; }
+.f1 { font-size: 3rem;     line-height: 1.05em  }
+.f2 { font-size: 2.25rem;  line-height: 1.2em   }
+.f3 { font-size: 1.5rem;   line-height: 1.25em  }
+.f4 { font-size: 1.25rem;  line-height: 1.3em   }
+.f5 { font-size: 1rem;     line-height: 1.3em   }
+.f6 { font-size: .9rem;    line-height: 1.4em   }
+.f7 { font-size: .8rem;    line-height: 1.5em   }
 
 .fw1 { font-weight: 100; }
 .fw2 { font-weight: 200; }
@@ -554,6 +554,14 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 .br--top { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
 .br--right { border-top-left-radius: 0; border-bottom-left-radius: 0; }
 .br--left { border-top-right-radius: 0; border-bottom-right-radius: 0; }
+
+/* BORDER WIDTH*/
+.bw0 { border-width: 0; }
+.bw1 { border-width: .125rem; }
+.bw2 { border-width: .25rem; }
+.bw3 { border-width: .5rem; }
+.bw4 { border-width: 1rem; }
+.bw5 { border-width: 2rem; }
 
 
 /*  PADDING  */
