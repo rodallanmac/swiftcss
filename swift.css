@@ -227,7 +227,8 @@ p  { font-size: 1rem;                        }
 
 /* WORD-STYLE */
 .i {         font-style: italic; }
-.b {         font-weight: bold; }
+ b {         font-weight: 700; }
+.b {         font-weight: 700; }
 .underline { text-decoration: underline; }
 .strike {    text-decoration: line-through; }
 .ttc {       text-transform: capitalize; }
