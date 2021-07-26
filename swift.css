@@ -776,6 +776,8 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 .mw-7 { max-width: 7rem; }
 .mw-8 { max-width: 8rem; }
 .mw-9 { max-width: 9rem; }
+.mw-200 { max-width: 200px; }
+.mw-300 { max-width: 300px; }
 .mw-400 { max-width: 400px; }
 .mw-500 { max-width: 500px; }
 .mw-600 { max-width: 600px; }
@@ -1183,6 +1185,8 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 .mw-7-m { max-width: 7rem; }
 .mw-8-m { max-width: 8rem; }
 .mw-9-m { max-width: 9rem; }
+.mw-200-m { max-width: 200px; }
+.mw-300-m { max-width: 300px; }
 .mw-400-m { max-width: 400px; }
 .mw-500-m { max-width: 500px; }
 .mw-600-m { max-width: 600px; }
@@ -1592,6 +1596,8 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 .mw-7-l { max-width: 7rem; }
 .mw-8-l { max-width: 8rem; }
 .mw-9-l { max-width: 9rem; }
+.mw-200-l { max-width: 200px; }
+.mw-300-l { max-width: 300px; }
 .mw-400-l { max-width: 400px; }
 .mw-500-l { max-width: 500px; }
 .mw-600-l { max-width: 600px; }
@@ -2001,6 +2007,8 @@ box-shadow:         0 10px 20px -3px rgba(161, 162, 163, 0.5);  /* Opera 10.5, I
 .mw-7-xl { max-width: 7rem; }
 .mw-8-xl { max-width: 8rem; }
 .mw-9-xl { max-width: 9rem; }
+.mw-200-xl { max-width: 200px; }
+.mw-300-xl { max-width: 300px; }
 .mw-400-xl { max-width: 400px; }
 .mw-500-xl { max-width: 500px; }
 .mw-600-xl { max-width: 600px; }
