@@ -262,6 +262,8 @@ p  { font-size: 1rem;                        }
 .ls-0 { letter-spacing: -.05em; }
 
 /* LINE HEIGHT / LEADING */
+.lh-050 { line-height: .5; }
+.lh-075 { line-height: .75; }
 .lh-1 { line-height: 1; }
 .lh-1-1 { line-height: 1.1; }
 .lh-1-15 { line-height: 1.15; }
